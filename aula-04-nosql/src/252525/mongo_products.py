@@ -59,6 +59,6 @@ def increment_stock(collection, product_id, delta):
     operador atomico `$inc` do MongoDB (`update_one`). Depois, busque o
     documento atualizado e retorne o NOVO valor de "stock".
 
-    Se nenhum produto com esse "product_id" existir, retorne `None`.
+    Se nenhum produto com esse `product_id` existir, retorne `None`.
     """
     raise NotImplementedError("TODO 4: implemente increment_stock")
